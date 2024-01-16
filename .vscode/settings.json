@@ -100,6 +100,26 @@
    * Controls the font size in pixels.
    */
   "editor.fontSize": 15,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#7c1d75",
+    "activityBar.background": "#7c1d75",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#7a811e",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#7c1d75",
+    "statusBar.background": "#53134e",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#7c1d75",
+    "statusBarItem.remoteBackground": "#53134e",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#53134e",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#53134e99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.remoteColor": "#53134e",
   /**
    * Controls the font weight. Accepts 'normal' and 'bold' keywords or numbers values between '100' and '900'.
    */
