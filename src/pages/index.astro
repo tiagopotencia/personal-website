@@ -38,6 +38,7 @@ const projects = (await getCollection("work"))
             <Pill><Icon icon="code" size="1.33em" />backend</Pill>
             <Pill><Icon icon="code" size="1.33em" />frontend</Pill>
             <Pill><Icon icon="code" size="1.33em" />web3</Pill>
+            <Pill><Icon icon="code" size="1.33em" />freelancer</Pill>
             <!-- <Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill> -->
             <!-- <Pill><Icon icon="pencil-line" size="1.33em" /> Content creator</Pill> -->
           </div>
@@ -59,7 +60,8 @@ const projects = (await getCollection("work"))
         <header class="section-header stack gap-2 lg:gap-4">
           <h3>Experiences</h3>
           <p>
-            Take a look below at some places I have/had the opportunity to contribute and learn from.
+            Take a look below at some places I have/had the opportunity to
+            contribute and learn from.
           </p>
         </header>
 
@@ -89,7 +91,8 @@ const projects = (await getCollection("work"))
         <header class="section-header stack gap-2 lg:gap-4">
           <h3>Tech stack</h3>
           <p>
-            Throughout the years I have been using a bunch of different technologies.
+            Throughout the years I have been using a bunch of different
+            technologies.
           </p>
         </header>
 
@@ -123,6 +126,7 @@ const projects = (await getCollection("work"))
                 "Docker",
                 "BlockChain",
                 "Ethereum",
+                "Bitcoin",
               ].map((brand) => (
                 <li class="mention-card">
                   <p>{brand}</p>
@@ -222,6 +226,17 @@ const projects = (await getCollection("work"))
       aspect-ratio: 3 / 4;
       border-radius: 4.5rem;
       object-fit: cover;
+    }
+  }
+
+  @media (max-width: 49em) {
+    .roles {
+      margin-top: 0.5rem;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      justify-content: center;
     }
   }
 
